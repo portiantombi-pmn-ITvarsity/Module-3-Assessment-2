@@ -1,0 +1,173 @@
+html{
+    height: 100%;
+}
+body{
+    font-family: optima;
+    
+    margin: 0;
+    padding: 0;
+    
+    height: 100%;
+}
+.body-home {
+    background-image: url('images/Moms-Lasagna-with-Cottage-Cheese-3-735x1101.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body-meals {
+    background-image: url('images/bg3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*================HEADER===============*/
+.header{
+    background-color: darkgrey;
+    
+    width: 100%;
+    height: 50px;
+    top: 0;
+    
+    position: fixed;
+    overflow: hidden;
+    
+    text-align: center;
+}
+.header i{
+    float: left;
+    padding: 17px 0px 0px 17px;
+    color: aqua;
+}
+.header img{
+    width: 200px;
+    padding-top: 14px;
+    padding-right: 25px;
+    
+}
+/*================HOME PAGE===============*/
+#home-logo-img{
+    width: 20%;
+    display: block;
+    margin: auto;
+    padding: 25px 10px 10px 10px;
+}
+/*================HOME PAGE MENU===============*/
+.home-menu-item{
+    text-decoration: none;
+    text-transform: uppercase;
+    
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    border: 5px solid white;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 80%;
+}
+/*================MEALS PAGE===============*/
+#meals{
+    padding-top: 50px;
+}
+
+/*================HOME PAGE THANKYOU===============*/
+.img{
+    align-content: center;
+}
+/*================HOME PAGE MENU===============*/
+.meals-list a{
+    text-decoration: none;
+}
+.meals-list-item {
+    border: 5px solid #ffffff;
+    margin: 10px;
+}
+.meals-list-item h1{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+.meals-list-item i{
+    float: right;
+    color: #ffffff;
+    padding-right: 20px;
+}
+.meals-list-item p{
+    font-size: 15px;
+    font-style: italic;
+    color: #ffffff;
+    margin-top: -7px;
+    padding-left: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+/*================FOOD PAGE===============*/
+#food{
+    padding-top: 50px;
+}
+/*================FOOD DETAILS ===============*/
+.food-details img{
+    width: 100%;
+}
+.food-details h1{
+    font-size: 25px;
+    text-align: center;
+    border: 5px solid #1a1a1a;
+    margin: 10px;
+    padding: 5px;
+}
+
+.food-details p{
+    font-size: 
+}
+.food-details-info p{
+    font-size: 18px;
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+.food-details-extras{
+    margin-left: 10px;
+}
+.food-details-about{
+    font-size: 18px;
+    text-align: center;
+}
+
+/*================FOOD DETAILS REQUEST ===============*/
+.food-details-request{
+   margin-left: 10px; 
+}
+textarea{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #1a1a1a;
+}
+.button{
+    display: block;
+    background-color: darkgray;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 12px;
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+
